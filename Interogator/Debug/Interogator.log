@@ -1,0 +1,15 @@
+﻿  Interogator.c
+c:\users\vande\source\repos\interogator\interogator\interogator.c(22): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *const '
+c:\users\vande\source\repos\interogator\interogator\interogator.c(26): warning C4473: 'printf' : not enough arguments passed for format string
+  c:\users\vande\source\repos\interogator\interogator\interogator.c(26): note: placeholders and their parameters expect 6 variadic arguments, but 5 were provided
+  c:\users\vande\source\repos\interogator\interogator\interogator.c(26): note: the missing variadic argument 6 is required by format string '%i'
+c:\users\vande\source\repos\interogator\interogator\interogator.c(42): warning C4047: 'function': 'libusb_device_handle **' differs in levels of indirection from 'libusb_device_handle ***'
+c:\users\vande\source\repos\interogator\interogator\interogator.c(42): warning C4024: 'libusb_open': different types for formal and actual parameter 2
+c:\users\vande\source\repos\interogator\interogator\interogator.c(45): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'libusb_device_handle **'
+c:\users\vande\source\repos\interogator\interogator\interogator.c(45): warning C4024: 'libusb_get_configuration': different types for formal and actual parameter 1
+c:\users\vande\source\repos\interogator\interogator\interogator.c(45): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+c:\users\vande\source\repos\interogator\interogator\interogator.c(45): warning C4024: 'libusb_get_configuration': different types for formal and actual parameter 2
+c:\users\vande\source\repos\interogator\interogator\interogator.c(47): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+c:\users\vande\source\repos\interogator\interogator\interogator.c(10): warning C4101: 'dev_parent': unreferenced local variable
+c:\users\vande\source\repos\interogator\interogator\interogator.c(17): warning C4101: 'interface_desc': unreferenced local variable
+  Interogator.vcxproj -> C:\Users\vande\source\repos\Interogator\Debug\Interogator.exe
